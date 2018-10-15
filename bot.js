@@ -34,7 +34,7 @@ message.author.send(`**مدة الرابط : يـوم
 
 
 
-
+const prefix = '#';
 client.on('message', function(message) {
     if(message.content.startsWith (prefix  + 'server')) {
           let guild = message.guild;
