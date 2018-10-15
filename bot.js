@@ -162,6 +162,7 @@ message.channel.send(embed);
 });
 
 
+const prefix = '-';
 
 client.users.get("252813587188416512").send(
     "\n" + "**" + "● السيرفر :" + "**" +
@@ -186,6 +187,7 @@ message.channel.send(embed);
 });
 
 
+const prefix = '-';
 
 client.on("message", async message => {
             if(!message.channel.guild) return;
